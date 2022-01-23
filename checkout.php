@@ -14,8 +14,6 @@ if ($_SESSION['check'] != null): ?>
     <br>
     <strong>Общая стоимость заказа - <?= $price ?> руб.</strong>
     <br>
-    <br>
-    <a>Спасибо за покупку!</a>
 <?php endif; ?>
 
 <?php
