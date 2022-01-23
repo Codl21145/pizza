@@ -7,9 +7,6 @@ require_once "classes/price_class.php";
 $pizza = new Price ($_SESSION['p_price'], $_SESSION['s_price']);
 $price = $pizza->calcPrice();
 
-//$price = $_SESSION['p_price'] + $_SESSION['s_price'];
-
-
 if ($_SESSION['check'] != null): ?>
     <a>Пицца <strong><?=$_SESSION['p_name'] ?></strong> - <?= $_SESSION['p_price'] ?>руб.</a>
     <br>
