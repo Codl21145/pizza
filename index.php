@@ -43,7 +43,8 @@ function redirect()
 <script>
     const myForm = document.getElementById('myForm');
 
-    function myFunction() {
+    function myFunction() 
+    {
         myForm.addEventListener('submit', function(e) {
             e.preventDefault();
 
